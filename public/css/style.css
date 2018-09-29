@@ -3,12 +3,12 @@ h3 {
 }
 /* Custom Calendar CSS */
 .CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
-	background: #337ab7 !important;
-	border: 1px solid #337ab7 !important;
+	background: #30C252 !important;
+	border: 1px solid #30C252 !important;
 }
 
 .DateInput_input__focused {
-	border-bottom: 2px solid #337ab7 !important;
+	border-bottom: 2px solid #30C252 !important;
 }
 /* End Custom Calendar CSS */
 .titleNews {
@@ -43,7 +43,7 @@ h3 {
 	border-right: 1px;
 	border-bottom: 1px;
 	border-left: 1px;
-	border-color: #337ab7;
+	border-color: #30C252;
 	border-style: solid;
 	padding: 10px;
 }

@@ -11,12 +11,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitze003/nytreact.git"
+		"url": "git+https://github.com/bitze003/nytimeapi.git"
 	},
 	"bugs": {
-		"url": "https://github.com/bitze003/nytreact/issues"
+		"url": "https://github.com/bitze003/nytimeapi/issues"
 	},
-	"homepage": "https://github.com/bitze003/nytreact#readme",
+	"homepage": "https://github.com/bitze003/nytimeapi#readme",
 	"author": "Kenneth Bitzer",
 	"license": "ISC",
 	"dependencies": {
