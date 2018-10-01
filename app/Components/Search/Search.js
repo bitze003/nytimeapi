@@ -107,17 +107,17 @@ class Search extends Component {
 				</div>
 				<div className="panel panel-primary">
 					<div className="panel-heading">
-						<h3 className="panel-title">Search articles on The New York Times</h3>
+						<h3 className="panel-title">Search NYT API</h3>
 					</div>
 					<form className="panel-body text-center" onSubmit={this.handleSubmit}>
 
 						<div className="panel-form-group">
-							<label htmlFor="topic">Topic</label>
+							<label htmlFor="topic">Stories</label>
 							<input type="text" className="form-control" id="topic" placeholder="Topic" />
 							{this.props.searchTerm.hasOwnProperty("errors") && this.props.searchTerm.errors.topic.status == true ? <div className="alert alert-danger"><strong>Error!</strong> {this.props.searchTerm.errors.topic.msg}</div>:""}
 						</div>
 						<div className="form-group">
-							<label htmlFor="startYear">Start Year</label>
+							<label htmlFor="startYear">Start Date</label>
 							<div>
 								<SingleDatePicker
 									id="startYear"
@@ -136,7 +136,7 @@ class Search extends Component {
 							{this.props.searchTerm.hasOwnProperty("errors") && this.props.searchTerm.errors.beginDate.status == true ? <div className="alert alert-danger"><strong>Error!</strong> {this.props.searchTerm.errors.beginDate.msg}</div>:""}
 						</div>
 						<div className="form-group">
-							<label htmlFor="endYear">End Year</label>
+							<label htmlFor="endYear">End Date</label>
 							<div>	
 								<SingleDatePicker
 									id="endYear"

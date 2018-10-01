@@ -28,7 +28,7 @@ class Saved extends React.Component {
 				</div>
                 <div className="panel panel-primary">
                     <div className="panel-heading">
-                        <h3 className="panel-title">Articles saved on the Database</h3>
+                        <h3 className="panel-title">NYT Articles Saved</h3>
                     </div>
                     <div className="panel-body">
                     {
